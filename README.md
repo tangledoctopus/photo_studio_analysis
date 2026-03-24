@@ -1,6 +1,6 @@
 # Photo Studio Business Analysis
 
-A financial and operational analysis of **Iconic**, an SME photo studio business based in Indonesia. This project examines 13 months of bank transaction data (January 2025 – February 2026) alongside customer booking records to assess the studio's financial health, operational patterns, and growth trajectory.
+A financial and operational analysis of a SME photo studio business based in Indonesia. This project examines 13 months of bank transaction data (January 2025 – January 2026) alongside customer booking records to assess the studio's financial health, operational patterns, and growth trajectory.
 
 > **Note:** The Jupyter Notebook contains only the code used to perform the analysis. The complete report — including written interpretations, findings, and strategic recommendations — is documented in a separate PDF file.
 
