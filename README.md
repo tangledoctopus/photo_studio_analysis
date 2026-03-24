@@ -14,11 +14,11 @@ The analysis is split into two main parts:
 Explores the studio's financial performance using categorized bank transaction data pulled from a Supabase database.
 
 - **Descriptive statistics**: Data types, category/subcategory breakdowns, and summary metrics
-- **Cash balance (Saldo) trend**: Linear regression on cumulative balance over time, showing a daily growth of ~Rp. 20,659
+- **Cash balance (Saldo) trend**: Linear regression on cumulative balance over time, showing a daily growth of ~0.020659
 - **Revenue analysis**: Monthly income broken down by subcategory (photo sessions, events, etc.)
 - **Expense breakdown**: Costs categorized across Personnel, Operations, Marketing, Direct, Equipment, Financial, and Tax
-- **Net cashflow**: Monthly net cashflow with identification of positive vs. negative months; total annual net cashflow of Rp. 4.03 Jt (~Rp. 310K/month average)
-- **Growth projections**: Linear forecast vs. an exponential target of Rp. 200 Jt by end of 2026
+- **Net cashflow**: Monthly net cashflow with identification of positive vs. negative months; total annual net cashflow of 4.03 (~0.310/month average)
+- **Growth projections**: Linear forecast vs. an exponential target of 200 by end of 2026
 
 ### Part 2 — Booking Spreadsheet Analysis
 Examines customer booking behavior using a cleaned and restructured CSV export from the studio's booking system.
@@ -40,7 +40,7 @@ Examines customer booking behavior using a cleaned and restructured CSV export f
 - Marketing spend appears to correlate with revenue increases in subsequent months
 - Fixed costs (personnel + operations) remain relatively stable month-to-month
 - High customer acquisition but low retention — growing repeat customers is a key opportunity
-- Reaching the Rp. 200 Jt EOY 2026 target would require significant strategic changes
+- Reaching the 200 EOY 2026 target would require significant strategic changes
 
 ---
 
@@ -73,6 +73,7 @@ Examines customer booking behavior using a cleaned and restructured CSV export f
 ```
 photo_studio_analysis/
 ├── photo_studio_analysis_notebook.ipynb   # Analysis code
+├── Progress Report.pdf                    # Full pdf report of findings
 └── README.md
 ```
 
